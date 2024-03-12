@@ -32,6 +32,9 @@ public class Program {
          if (x instanceof Freelancer) System.out.println(x);
       }
 
+      System.out.println("***");
+      for (Employee x : var2) System.out.println(x);
+
 
    }
 }
